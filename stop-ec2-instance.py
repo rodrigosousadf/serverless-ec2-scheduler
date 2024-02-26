@@ -5,7 +5,7 @@ def lambda_handler(event, context):
     ec2_client = boto3.client('ec2', region_name='ap-south-1') # Replace your Region name
 
     # Especifica a instance Id da instancia EC2 que você quer pausar
-    instance_id = 'i-051262059d6f6350a' # Replace your Own Instance ID
+    instance_id = 'i-02c062b8447ffe813' # Replace your Own Instance ID
 
     # Pausa a instancia EC2
     try:
